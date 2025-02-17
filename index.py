@@ -11,10 +11,6 @@ DB_CONFIG = {
     "port": "5432"
 }
 
-
-
-
-
 # Function to scrape data from a website
 def scrape_data(url):
     response = requests.get(url)
