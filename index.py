@@ -12,6 +12,7 @@ DB_CONFIG = {
 }
 
 
+
 # Function to scrape data from a website
 def scrape_data(url):
     response = requests.get(url)
