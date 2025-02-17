@@ -2,8 +2,6 @@ import requests
 import psycopg2
 from bs4 import BeautifulSoup
 
-
-
 # Database connection settings
 DB_CONFIG = {
     "dbname": "your_database",
